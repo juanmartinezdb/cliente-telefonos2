@@ -1,0 +1,63 @@
+[
+      {
+        "id": 1,
+        "nombre": "Apple",
+        "pais": "Estados Unidos",
+        "sistema_operativo": "iOS"
+      },
+      {
+        "id": 2,
+        "nombre": "Samsung",
+        "pais": "Corea del Sur",
+        "sistema_operativo": "Android"
+      },
+      {
+        "id": 3,
+        "nombre": "Google",
+        "pais": "Estados Unidos",
+        "sistema_operativo": "Android"
+      },
+      {
+        "id": 4,
+        "nombre": "Xiaomi",
+        "pais": "China",
+        "sistema_operativo": "Android"
+      },
+      {
+        "id": 5,
+        "nombre": "OnePlus",
+        "pais": "China",
+        "sistema_operativo": "Android"
+      },
+      {
+        "id": 6,
+        "nombre": "Oppo",
+        "pais": "China",
+        "sistema_operativo": "Android"
+      },
+      {
+        "id": 7,
+        "nombre": "Vivo",
+        "pais": "China",
+        "sistema_operativo": "Android"
+      },
+      {
+        "id": 8,
+        "nombre": "Sony",
+        "pais": "Japón",
+        "sistema_operativo": "Android"
+      },
+      {
+        "id": 9,
+        "nombre": "Motorola",
+        "pais": "Estados Unidos",
+        "sistema_operativo": "Android"
+      },
+      {
+        "id": 10,
+        "nombre": "Nothing",
+        "pais": "Reino Unido",
+        "sistema_operativo": "Android"
+      }
+    ]
+  
