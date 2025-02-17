@@ -18,13 +18,16 @@ phones: Product[] = [];
 
 ngOnInit(): void {
   const id = Number(this.route.snapshot.paramMap.get('id'));
+console.log("id de supplier: ",id);
 
 this.chargeSuppliers(id);
   this.chargePhones(id);
 }
 
 chargePhones(id: number) {
-  this.phones = products.filter(p=> p.supplier= id );
+  this.phones = products.filter(p=> p.supplier== id );
+  console.log("telefonos",this.phones);
+
 }
 chargeSuppliers(id: number){
   this.supService.supplier$.subscribe( sup => {

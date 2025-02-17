@@ -15,12 +15,11 @@ export class SupplierService {
     this.cargaSuppliers()
   }
 
-
   cargaSuppliers() {
     this.http.get<Supplier[]>('suppliersdb.json').subscribe({
       next: (s) => {
         this.suppliersSubject.next(s);
-        console.log(s);
+        console.log("supliers carga:",s);
 
       }, error: (er) => {
         console.error('Error cargan suppliers', er);
